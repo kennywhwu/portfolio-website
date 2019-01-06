@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	</head>
 	<body class="landing is-preload">
 		<div id="page-wrapper">
@@ -21,12 +22,24 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li>
+									<a href="#portfolio" class="icon fa-angle-down"> Portfolio</a>
+									<ul>
+										<li><a href="cherries.html">Lipslut/Cherries</a></li>
+										<li><a href="devolve.html">Devolve</a></li>
+										<li><a href="warbler.html">Warbler</a></li>
+										<li><a href="jobly.html">Jobly</a></li>
+										<li><a href="microblog.html">Microblog</a></li>
+									</ul>
+								</li>
+								
+							</li>
+							<!-- <li>
 								<a href="#" class="icon fa-angle-down">Menu</a>
 								<ul>
 									<li><a href="generic.html">Generic</a></li>
 									<li><a href="elements.html">Elements</a></li>
 									<li>
-										<a href="#portfolio">Portfolio +</a>
+										<a href="#portfolio" class="icon fa-angle-down"> Portfolio</a>
 										<ul>
 											<li><a href="cherries.html">Lipslut/Cherries</a></li>
 											<li><a href="devolve.html">Devolve</a></li>
@@ -38,8 +51,11 @@
 									<li><a href="contact.html">Contact</a></li>
 
 								</ul>
-							</li>
-							<!-- <li><a href="#" class="button">Sign Up</a></li> -->
+								
+							</li> -->
+							<li><a href="https://www.linkedin.com/in/kennywhwu/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/kennywhwu" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:kennywhwu@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 					</nav>
 				</header>
@@ -124,12 +140,13 @@
 								</span>
 								<h3>Lipslut / Cherries</h3>
 								<p>Ecommerce website for subscription earrings</p>
-								<p><b>Tech Stack</b>: React, Gatsby, GraphQL</p>
+								<p><b>Tech Stack</b>: <br>React, Gatsby, GraphQL</p>
 								<ul class="actions special">
 									<li><a href="cherries.html" class="button alt">Learn More</a></li>
 								</ul>
 							</section>
-
+							
+							<hr>
 						</div>
 						<div class="col-6 col-12-narrower">
 
@@ -140,12 +157,12 @@
 											</div></a></span>
 								<h3>Devolve</h3>
 								<p>Asymmetric multiplayer game over websockets</p>
-								<p><b>Tech Stack</b>: React, Websockets</p>
+								<p><b>Tech Stack</b>: <br>React, Websockets</p>
 								<ul class="actions special">
 									<li><a href="devolve.html" class="button alt">Learn More</a></li>
 								</ul>
 							</section>
-
+							<hr>
 						</div>
 					</div>
 
@@ -153,29 +170,65 @@
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
-								<span class="image featured"><a href="warbler.html"><img src="images/warbler03.png" alt="" /></a></span>
+								<span class="image featured"><a href="warbler.html" class="glow-photo"><img src="images/warbler03.png" alt="" />
+								<div class="glow-wrap">
+										<i class="glow"></i>
+										</div></a></span>
 								<h3>Warbler</h3>
 								<p>Twitter clone</p>
-								<p><b>Tech Stack</b>: Flask, SQLAlchemy, Postgres backend, HTML, Jinja frontend</p>
+								<p><b>Tech Stack</b>: 
+									<br>Frontend: <i>Jinja</i>
+									<br>Backend: <i>Flask, SQLAlchemy, Postgres</i>
+								</p>
+								<!-- https://warbler-dream-team.herokuapp.com/ -->
 								<ul class="actions special">
 									<li><a href="warbler.html" class="button alt">Learn More</a></li>
 								</ul>
 							</section>
-
+							<hr>
 						</div>
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
-								<span class="image featured"><a href="jobly.html"><img src="images/pic03.jpg" alt="" /></a></span>
+								<span class="image featured"><a href="jobly.html" class="glow-photo"><img src="images/pic03.jpg" alt="" />
+								<div class="glow-wrap">
+										<i class="glow"></i>
+										</div></a></span>
 								<h3>Jobly</h3>
 								<p>LinkedIn clone</p>
-								<p><b>Tech Stack</b>: React frontend, Node/Express backend</p>
+								<p><b>Tech Stack</b>: 
+									<br>Frontend: <i>React</i>
+									<br>Backend: <i>Node/Express</i>
+								</p>
+								<!-- https://jobly-frontend-superstar.herokuapp.com/ -->
 								<ul class="actions special">
 									<li><a href="jobly.html" class="button alt">Learn More</a></li>
 								</ul>
 							</section>
-
+							<hr>
 						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 col-12-narrower">
+
+							<section class="box special">
+								<span class="image featured"><a href="microblog.html" class="glow-photo"><img src="images/microblog01.png" alt="" />
+								<div class="glow-wrap">
+										<i class="glow"></i>
+										</div></a></span>
+								<h3>Microblog</h3>
+								<p>Website for creating short posts and comments</p>
+								<p><b>Tech Stack</b>: 
+									<br>Frontend: <i>React, Redux</i>
+									<br>Backend: <i>Node/Express</i>
+								<!-- https://warbler-dream-team.herokuapp.com/ -->
+								<ul class="actions special">
+									<li><a href="microblog.html" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+							<hr>
+						</div>
+					
 					</div>
 
 
