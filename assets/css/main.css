@@ -2605,6 +2605,7 @@ ul.icons {
   list-style: none;
   padding-left: 0;
   text-align: center;
+  margin: 0;
 }
 
 ul.icons li {
@@ -3357,8 +3358,9 @@ body.landing #main {
 /* Footer */
 
 #footer {
-  background: #f0f0f0;
-  padding: 4em 0 6em 0;
+  background: #e89980;
+  color: #f9e6df;
+  padding: 4em 0 4em 0;
   text-align: center;
 }
 
@@ -3486,7 +3488,7 @@ body.landing #main {
   /* Banner */
 
   #banner {
-    padding: 10em 0 18em 0;
+    padding: 16em 0 24em 0;
   }
 }
 
@@ -3512,6 +3514,7 @@ body.landing #main {
 
   #banner {
     background-attachment: scroll;
+    padding: 16em 0 24em 0;
   }
 
   #banner h2 {
@@ -3852,7 +3855,7 @@ body.landing #main {
   /* Banner */
 
   #banner {
-    padding: 4em 0;
+    padding: 18em 0 18em;
   }
 
   #banner h2 {
@@ -3996,7 +3999,7 @@ body.landing #main {
   /* Banner */
 
   #banner {
-    padding: 5em 3em 4em 3em;
+    padding: 16em 3em 16em 3em;
   }
 
   /* Main */
