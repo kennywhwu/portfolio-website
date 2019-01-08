@@ -9,6 +9,7 @@
 		<title>Kenny Hwu - Jobly</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="./images/kh_logo.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 
 		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -31,9 +32,8 @@
 									<ul>
 										<li><a href="cherries.html">Lipslut/Cherries</a></li>
 										<li><a href="devolve.html">Devolve</a></li>
-										<li><a href="jobly.html">Warbler</a></li>
+										<li><a href="warbler.html">Warbler</a></li>
 										<li><a href="jobly.html">Jobly</a></li>
-										<!-- <li><a href="microblog.html">Microblog</a></li> -->
 									</ul>
 								</li>
 								
@@ -55,9 +55,10 @@
 
 					<div class="slick-gallery">
 						<img src="images/jobly01.png" alt="" />
-						<img src="images/jobly03.png" alt="" />
 						<img src="images/jobly02.png" alt="" />
-						<!-- <img src="images/jobly04.png" alt="" /> -->
+						<img src="images/jobly03.png" alt="" />
+						<img src="images/jobly04.png" alt="" />
+						<img src="images/jobly05.png" alt="" />
 					</div>
 					<br>
 
@@ -69,8 +70,8 @@
 								<br>
 
 						<h3>Mock Job Search</h3>
-						<p>Jobly is a concept app to mimic the structure and capabilities of LinkedIn, including user account creation, login, posts, follows, and likes.  The website is built with a <a href="http://flask.pocoo.org/" target="_blank">Flask</a> backend, along with a <a href="https://www.postgresql.org/" target="_blank">Postgres</a> database.
-								Data is accessed and managed through <a href="https://www.sqlalchemy.org/" target="_blank">SQLAlchemy</a> ORM.  Frontend for the website is templated through <a href="http://jinja.pocoo.org/" target="_blank">Jinja</a>.
+						<p>Jobly is a concept app to mimic the structure and capabilities of LinkedIn, including user account creation and login, and company/job search.  The website is built with a <a href="https://expressjs.com/" target="_blank">Express</a> backend and a <a href="https://www.postgresql.org/" target="_blank">Postgres</a> database.
+								Frontend for the website built through <a href="https://reactjs.org" target="_blank">React</a> with components styled by <a href="https://reactstrap.github.io/" target="_blank">reactstrap</a>.
 						</p>
 						<div class="row">
 							<div class="row-6 row-12-mobilep">
@@ -79,16 +80,17 @@
 									</span>
 
 								<h3>Create User Accounts</h3>
-								<p>Users can create accounts and profiles to interact with one another. User signup and login forms created and validated with <a href="https://wtforms.readthedocs.io/en/stable/" target="_blank">WTForms</a>.  Account creation supported with password hashing through <a href="https://www.npmjs.com/package/bcrypt" target="_blank">bcrypt</a>.</p>
+								<p>Users can create accounts to look through companies and jobs to apply for. User signup and login are validated with <a href="https://jsonschema.net/" target="_blank">JSON Schema</a>, while password hashing and authentication are processed with <a href="https://www.npmjs.com/package/bcrypt" target="_blank">bcrypt</a>.
+									Users can also update their profiles if correct password is entered</p>
 							</div>
 							<br>
 							<div class="row-6 row-12-mobilep">
-									<hr>
+
 								
 									<span class="image right "><img src="gifs/jobly02.gif" alt="" /></span>
 									
-								<h3>Message Post, Follow Users, Like Posts</h3>
-								<p>Users can post messages on their feed, which can then be viewed by other users. Users can also search for and follow/unfollow other joblys.  Followed joblys show up in user's Following list. Users can also like and unlike posts from those followed joblys.  Liked posts will show up in user's Like list</p>
+								<h3>Search Companies, Apply to Jobs</h3>
+								<p>Users can search for companies and jobs, as well as list all jobs from a company.  Once they find a job they are interested in, users can apply to it with the click of a button.</p>
 
 
 							</div>

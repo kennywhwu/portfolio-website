@@ -2110,6 +2110,8 @@ article.special {
 section#portfolio {
   background-image: url('../../images/pic02.jpg');
   background-size: 100%;
+  /* width: 70%;
+  margin: 0 auto 3rem auto; */
 }
 
 section#portfolio h2 {
@@ -2124,9 +2126,9 @@ header p {
 }
 
 header h2 + p {
-  font-size: 1.25em;
+  font-size: 1.3em;
   margin-top: -1em;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 
 header h3 + p {
@@ -2458,6 +2460,15 @@ input[type='radio'] + label:before {
 
 .box .image.featured:last-child img {
   border-radius: 0 0 6px 6px;
+}
+
+.box img.profile {
+  width: 100%;
+}
+
+.profile-container {
+  width: 24%;
+  min-width: 200px;
 }
 
 /* Icon */
@@ -3188,6 +3199,13 @@ body.landing #page-wrapper {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.profile-subheader {
+  text-align: left;
+}
+.profile-body {
+  text-align: justify;
+}
+
 .dropotron {
   background: #fff;
   border-radius: 6px;
@@ -3261,12 +3279,11 @@ body.landing #page-wrapper {
   background-color: #666;
   background-image: url('images/overlay.png'),
     url('../../images/kenny_banner03.jpg');
-  /* opacity: 1; */
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   color: #fff;
-  padding: 12em 0 20em 0;
+  padding: 18em 0 20em 0;
   text-align: center;
 }
 
@@ -3291,7 +3308,7 @@ body.landing #page-wrapper {
 
 #banner p {
   font-size: 1.25em;
-  margin-bottom: 1.75em;
+  margin-bottom: 4em;
 }
 
 #banner input[type='submit'],
@@ -3488,7 +3505,7 @@ body.landing #main {
   /* Banner */
 
   #banner {
-    padding: 16em 0 24em 0;
+    padding: 12em 0 24em 0;
   }
 }
 
@@ -4073,4 +4090,8 @@ body.landing #main {
   /* background-color: gray; */
   /* border-radius: 6px; */
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+html {
+  scroll-behavior: smooth;
 }
